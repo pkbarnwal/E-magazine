@@ -1,37 +1,83 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drop-down Menu Design</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >  
+    </head>
+    <body>
+        <div class="menu-bar">
+           <ul>
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">About Us</a>
+                     <div class="sub-menu-1">
+                         <ul>
+                             <li><a href="#">Mission</a></li>
+                             <li><a href="#">Vision</a></li>
+                             <li><a href="#">Team</a></li>
+                        </ul>
+                    </div>
+                     </li>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="Bootstrap/CSS/style.css">
-  <link rel="stylesheet" href="fontawesome-free-5.10.2-web/css/all.css">
-  <title>E-magazine</title>
-</head>
-  <body>
-  <nav>
-    <!---    Social Link and Contact Section      ----->
-        <div class="top-header">                    
-            <div class="container-fluid">
-                <div class="row m-2">
-                    <div class=col-md-6>
-                        <a  style="color: #3b5998;"  class=" pl-5"     href="https://www.facebook.com/Techy Sheky"><i class="fab fa-2x fa-facebook-square"></i></a>
-                        <a  style="color: #db4a39;" class="pl-3" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
-                        <a  style="color :#00acee;"class="pl-3" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
-                        <a  style="color: rgba(204, 45, 45, 0.849);"class="pl-3"  href="#"><i class="fab fa-2x fa-instagram"></i></a>
-                   </div>
-                
-                   <div class="col-md-6">
-                    <a class="p-4" href="tel:1234567890"><i class="fas fa-phone-square"></i>+(91) 7564862599</a>
-                    <a class="p-4" href="mailto:abcxyz@gmail.com"><i class="fas fa-envelope"></i>techysheky@gmail.com</a>
 
+               <li><a href="#">Services</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li class="hover-me"><a href="#">Mobile App<i class="fa fa-angle-right"></i></a>
+                           <div class="sub-menu-2">
+                              <ul>
+                                 <li><a href="#">Android App</a></li>
+                                <li><a href="#">IOS App</a></li>
+                                <li><a href="#">Window App</a></li>
+                                <li><a href="#">Flutter App</a></li>
+                             </ul>
+                           </div>
+                      </li>
+                        <li class="hover-me"><a href="#">Marketing<i class="fa fa-angle-right"></i></a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="#">Email Marketing</a></li>
+                                    <li><a href="#">SEO</a></li>
+                                    <li><a href="#">Social Media</a></li>
+                               </ul>
+                            </div>
+                        </li>
+                   </ul>
+               </div>
+               </li>
+               <li><a href="#">Clients</a>
+                <div class="sub-menu-1">
+                <ul>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Team</a></li>
+               </ul>
+           </div>
+        </li>
+               <li><a href="#">Investors</a>
+                    <div class="sub-menu-1">
+                       <ul>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Team</a></li>
+                       </ul>
                    </div>
-                </div>
-            </div>
+            
+               </li>
+               <li><a href="#">Pricing</a>
+                    <div class="sub-menu-1">
+                       <ul>
+                         <li><a href="#">Mission</a></li>
+                         <li><a href="#">Vision</a></li>
+                         <li><a href="#">Team</a></li>
+                      </ul>
+                 </div>
+            
+               </li>
+               <li><a href="#">Training</a></li>
+               <li><a href="#">Contact</a></li>
+           </ul>
         </div>
-    </nav>
-  </body>
+    </body>
 </html>
